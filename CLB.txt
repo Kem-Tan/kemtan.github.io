@@ -1,0 +1,86 @@
+﻿<html><head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Trang chủ</title>
+  <style>
+    .logo {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 50px;
+            height: auto;
+        }
+	.banner {
+        background-image: url("https://photos.wikimapia.org/p/00/01/74/45/46_big.jpg");
+        background-size: cover;
+        padding-top: 6rem;
+        padding-bottom:6rem;
+        text-align: center !important;
+        color:  RGB(139,0,0)!important;}
+	.banner h2 {font-family: 'Arial', sans-serif;
+				font-size: 3rem;
+				font-weight: bold;}
+
+   body {background-image: url("./nenlogo/trangchu.jpg");
+		background-size:auto;}
+</style>
+<style>
+    p {color: dark;
+	   font-family: calibri;
+	   font-size:140%;}
+	h1{font-family: cursive;
+	   text-align: left;}
+	.content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 40px;
+        }
+    .box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 60%;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+	.box:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);}
+    .box img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+        }
+</style>
+</head>
+<body>
+<img src="./nenlogo/logo1.png" alt="logo" class="logo">
+<div class="banner">
+    <h2 style="font-family:ARIAL; ">MỘT SỐ CÂU LẠC BỘ TRƯỜNG TRUNG HỌC PHỔ THÔNG NGUYỄN ĐÌNH CHIỂU</h2>
+</div>
+  <p><b>Trường THPT Nguyễn Đình Chiểu là một ngôi trường có bề dày truyền thống và uy tín trong công tác giáo dục tại địa phương. Với mục tiêu đào tạo học sinh phát triển toàn diện cả về tri thức lẫn nhân cách, nhà trường luôn chú trọng nâng cao chất lượng giảng dạy song song với việc rèn luyện kỹ năng sống và ý thức trách nhiệm cho học sinh. Hệ thống cơ sở vật chất ngày càng được đầu tư khang trang, cùng môi trường học tập thân thiện, tích cực, đã tạo điều kiện thuận lợi để học sinh phát huy tối đa khả năng của bản thân. Trường không chỉ là nơi truyền đạt kiến thức mà còn là mái nhà chung, gắn kết nhiều thế hệ học sinh trên con đường hướng tới tương lai.</b></p>
+ <p><b>Các câu lạc bộ ở Trường THPT Nguyễn Đình Chiểu được tổ chức đa dạng và hấp dẫn, tạo môi trường bổ ích cho học sinh sau giờ học trên lớp. Tham gia các câu lạc bộ giúp học sinh khám phá năng khiếu cá nhân, nâng cao kỹ năng mềm và xây dựng mối quan hệ gắn bó với những người bạn có chung đam mê.Các câu lạc bộ của Trường THPT Nguyễn Đình Chiểu được xây dựng đa dạng, đáp ứng nhu cầu học tập và rèn luyện của học sinh ngoài thời gian học chính khóa. Thông qua hoạt động câu lạc bộ, học sinh có cơ hội phát triển năng lực cá nhân, trau dồi kỹ năng cần thiết và giao lưu, gắn kết với những bạn bè có cùng đam mê.Một số câu lạc bộ có những hoạt động nổi bật trong thời gian qua:</b></p>
+<div class="content">
+        <div class="box" onclick="location.href='CLB thể thao.html'">
+            <img src="./nenlogo/logothethao.jpg">
+            <h1>NDC Sports CLUB</h1>
+        </div>
+        <div class="box" onclick="location.href='CLB truyền thông.html'">
+            <img src="./nenlogo/logotruyenthong.jpg">
+            <h1>NDC Social CLUB</h1>
+        </div>
+        <div class="box" onclick="location.href='CLB thiện nguyện.html'">
+            <img src="./nenlogo/logothiennguyen.jpg">
+            <h1>NDC Volunteer CLUB</h1>
+        </div>
+    </div>
+
+
+
+</body></html>
